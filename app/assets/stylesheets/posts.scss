@@ -1,0 +1,117 @@
+.blog-text {
+	width: 80%;
+	height: 400px;
+}
+
+.title-text {
+	width: 80%;
+}
+
+.post-title {
+	padding-top: 50px;
+	margin-right: 80px;
+	font-family: Futura;
+	font-size: 4em;
+	color: #BA227B;
+	
+}
+
+
+.post-content {
+	padding-top: 50px;
+	//padding-left: 80px;
+	font-family: Arial;
+	font-size: 1.5em;
+	text-align: justify;
+	color: #4D7EB0;
+	padding-bottom: 20px;
+	//padding-right: 220px;
+	margin-left: 20px;
+
+}
+
+.show-link {
+	display: inline-block;
+}
+
+.edit-link {
+	display: inline-block;
+}
+
+.destroy-link {
+	display: inline-block;
+}
+
+.post-links {
+	width: 60%;
+
+}
+
+a {
+	font-family: Futura;
+	text-decoration: none;
+	color: #AAACB3;
+}
+
+.test-div a:hover {
+	text-decoration: none;
+	background-color: white !important;
+	color: #4D7EB0 !important;
+
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #f0f4f8 !important;
+	color: #4D7EB0 !important;
+
+}
+
+
+.new-post {
+	padding-left: 80px;
+}
+
+.new-post-title {
+	padding-left: 80px;
+	font-family: Futura;
+	font-size: 4em;
+	color: #BA227B;
+	padding-bottom: 20px;
+
+}
+
+.new-post-form {
+	padding-left: 80px;
+	font-family: Helvetica;
+	letter-spacing: .1em;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #6E717D;
+}
+
+.back-link {
+	padding-left: 80px;
+	padding-top: 20px;
+	
+}
+
+.container-fluid {
+	background-color: black !important;
+}
+
+.test-div {
+	background-color: white;
+	width: 60%;
+	margin-left: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+#post-button {
+	font-family: Futura; 
+	border: none;
+	padding: 10px 20px 10px 20px; 
+	text-transform: uppercase;
+}

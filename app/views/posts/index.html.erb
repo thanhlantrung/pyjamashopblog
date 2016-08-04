@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="test-div">
+<% @posts.each do |post| %>
+
+<table>
+  <tbody>
+    
+    
+    
+   
+      <tr>  
+      
+        <td class="post-title my-posts"><%= post.title %></td>
+      </tr>
+      <tr>
+        <td class="post-content my-posts"><%= post.content %></td>
+      </tr>
+      <tr class="post-links my-posts">
+        <td class="show-link"><%= link_to 'Show', post %>
+      <%= link_to 'Edit', edit_post_path(post) %>
+      <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+      <div class="separator">
+      </div>
+    
+  
+    
+  
+  </tbody>
+</table>
+
+<% end %> 
+</div>
+<br>
+
+<div class="new-post"><%= link_to 'New Post', new_post_path %></div>
